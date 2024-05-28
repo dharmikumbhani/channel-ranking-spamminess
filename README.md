@@ -1,6 +1,13 @@
 # Channel Ranking Spaminess
 This is a simple repository that stitches OpenRanks channel rankins APIs + OpenRanks Global Ranking APIs and finally retrieves more information about each of the user using Neynars API to get information on all the ranked users withing a channel which then exports a xlsx file with all of these information seperated by columns to eyeball the spaminess of the users' channel rankings within the channel.
 
+## Environment variables
+You will need to set the following environment variables in your .env file:
+
+| Variable | Description |
+| ---- | -------- |
+| `NEYNAR_API_KEY` | The API key for Neynar |
+
 ## Steps to run
 1. Clone the repository
 2. Install the requirements using `npm install`
